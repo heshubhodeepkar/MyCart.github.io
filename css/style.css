@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+/* body{
+    background-color:rgb(178, 178, 178);
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0px 2vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    font-family: 'Antic Slab', serif;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 1vw;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 40vw;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 6px;
+    margin: 0px 10px 0px 20px;
+    padding-left: 12px;
+    font-family: 'Antic Slab', serif;
+    font-size: 1.3vw;
+
+}
+
+
+.search button {
+    font-family: 'Antic Slab', serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider {
+    margin: 15px auto;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    width: 98vw;
+    overflow-x: scroll;
+}
+
+.slider img {
+    cursor: pointer;
+}
+
+.asidepic {
+    position: absolute;
+    right: 0;
+    top: 368px;
+    bottom: 780px;
+    right: 15px;
+}
+
+.asidepic img {
+    width: 250px;
+    height: 325px;
+    border-left: 20px solid white;
+}
+
+.cardA {
+    max-width: 80vw;
+    margin-left: 3vw;
+    margin-right: 16vw;
+}
+
+.card {
+    max-width: 95vw;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    cursor: pointer;
+    overflow-x: scroll;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 3vw;
+
+}
+
+.card-item img {
+    height: 200px;
+    width: 200px;
+}
+
+/* .textc {
+    font-family: 'Antic Slab', serif;
+} */
+
+.my-2 {
+    font-family: 'Antic Slab', serif;
+}
+
+.lines {
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Antic Slab', serif;
+}
